@@ -1,7 +1,7 @@
 export default {
   clearTip: 'Are you sure you want to clear all contents?',
-  edit: 'edit',
-  preview: 'preview',
+  Edit: 'Edit',
+  Preview: 'Preview',
   editAndPreview: 'editAndPreview',
   btnHeader: 'Header',
   btnClear: 'Clear',
