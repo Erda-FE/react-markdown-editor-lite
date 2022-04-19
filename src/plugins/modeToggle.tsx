@@ -74,14 +74,14 @@ export default class ModeToggle extends PluginComponent<ModeToggleState> {
             title={i18n.get('btnModeEditor')}
             onClick={() => this.handleClick('edit')}
           >
-            {i18n.get('edit')}
+            {i18n.get('Edit')}
           </span>
           <span
             className={`button mode-button ${html ? 'active-button' : ''}`}
             title={i18n.get('btnModePreview')}
             onClick={() => this.handleClick('preview')}
           >
-            {i18n.get('preview')}
+            {i18n.get('Preview')}
           </span>
         </span>
       );
