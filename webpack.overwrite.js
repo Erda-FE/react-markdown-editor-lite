@@ -83,7 +83,7 @@ module.exports = config => {
             });
 
             dts.bundle({
-              name: "@terminus/react-markdown-editor-lite",
+              name: "@erda-ui/react-markdown-editor-lite",
               main: "lib/index.d.ts",
               baseDir: "lib",
               out: "temp_dts.tmp",
